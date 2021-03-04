@@ -2,7 +2,7 @@
 apiVersion: config.openshift.io/v1
 kind: Build
 metadata:
-  name: cluster
+  name: test-dedicated-admin-cluster
   annotations:
     argocd.argoproj.io/sync-options: Prune=false
 spec:
